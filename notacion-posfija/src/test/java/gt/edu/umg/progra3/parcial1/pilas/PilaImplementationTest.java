@@ -8,17 +8,11 @@ public class PilaImplementationTest {
     private Pila pila;
     @Before
     public void init(){
-        // reemplazar mi implementacion por
-        // la implementacion desarrollada
-        // pila = new mi implementacion;
+        pila = new PilaImpl();
 
         pila.push("Programacion 3");
         pila.push("a");
         pila.push("Bienvenidos");
-
-
-
-
 
     }
 

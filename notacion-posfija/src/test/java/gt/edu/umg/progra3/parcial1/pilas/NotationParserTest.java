@@ -9,12 +9,9 @@ public class NotationParserTest {
 
     @Before
     public void init(){
-        //reemplazar por la implementacion creada
-        //pila = mi implementacion
+        pila = new PilaImpl();
         parser = new NotationParser(pila);
     }
-
-
 
     @Test
     public void testNotationPosToInfix(){
